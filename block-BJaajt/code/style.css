@@ -20,7 +20,8 @@ input {
 input:hover {
   border: 2px solid blue;
 }
-ul {
+.followers,
+.following {
   list-style: none;
   text-align: center;
 }
@@ -28,11 +29,16 @@ li {
   padding: 0.5rem;
   margin: 0.5rem;
 }
-.followers,
-.following {
+.user-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+img {
   width: 80px;
   height: 80px;
   border-radius: 50%;
+  text-align: center;
 }
 h2 {
   margin: 0 auto;
