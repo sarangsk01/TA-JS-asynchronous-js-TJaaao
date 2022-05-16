@@ -1,0 +1,68 @@
+body {
+  background-color: bisque;
+  padding: 0 32px;
+  line-height: 1.5;
+}
+header {
+  background-color: black;
+  font-size: 2.5rem;
+  color: white;
+  text-align: center;
+}
+.options {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+select {
+  font-size: 1.3rem;
+  padding: 0.8rem 1.5rem;
+}
+.news {
+  list-style: none;
+  padding: 3rem;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.source-main {
+  margin: 10px 3rem;
+  position: relative;
+}
+.source {
+  background-color: green;
+  border-radius: 50px;
+  padding: 0.5rem;
+  color: white;
+  font-size: 1rem;
+}
+.source:hover {
+  text-decoration: underline;
+}
+button {
+  padding: 0.5rem 1.5rem;
+  background-color: black;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+button:hover {
+  text-decoration: underline;
+}
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 800;
+  color: black;
+}
+img {
+  width: 50%;
+}
+li {
+  display: flex;
+  margin: 2rem;
+}
